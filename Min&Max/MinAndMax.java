@@ -1,7 +1,7 @@
 public class MinAndMax{
     public static void main(String[] args) {
-       Integer a=90;
-       Integer b=20;
+       Integer a=20;
+       Integer b=90;
        Integer c=80; 
        findMax(a, b, c);
     }
