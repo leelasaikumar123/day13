@@ -5,6 +5,7 @@ public class MinAndMax{
        Integer c=100; 
        findMax(a, b, c);
        findMax(10.0f,11.0f,12.0f);
+       findMax("Leela","Sai","Kumar");
     }
     public static void findMax(Integer num1,Integer num2,Integer num3){
         Integer greatest=num1;
@@ -23,6 +24,16 @@ public class MinAndMax{
         }
                 if(num3.compareTo(greatest)>0){
            greatest=num3;
+        }
+        System.out.println(greatest);
+    }
+                public static void findMax(String name1,String name2,String name3){
+        String greatest=name1;
+        if(name2.compareTo(greatest)>0){
+           greatest=name2;
+        }
+                if(name3.compareTo(greatest)>0){
+           greatest=name3;
         }
         System.out.println(greatest);
     }
